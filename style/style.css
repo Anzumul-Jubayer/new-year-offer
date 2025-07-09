@@ -1,0 +1,30 @@
+.merriweather-normal{
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+
+/* Share Style */
+
+
+/* header */
+.banner{
+    background-image: url(../images/Banner\ Image.png);
+    margin: 50px auto;
+    width: 1370px;
+    height: 600px;    
+}
+.banner-title{
+    color: #FFFFFF;  
+    font-size: 32px;
+    text-align: center;
+    padding-top: 130px; 
+}
+.banner-description{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 900px;
+    color:#FFFFFF;
+    margin-top: 30px;
+}
