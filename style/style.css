@@ -4,27 +4,63 @@
   font-style: normal;
   font-variation-settings:"wdth" 100;
 }
+body{
+    margin-bottom: 120px;
+}
 
 /* Share Style */
 
 
 /* header */
 .banner{
-    background-image: url(../images/Banner\ Image.png);
+   background-image:linear-gradient(#070211, #0702112b),url('../images/Banner Image.png');
     margin: 50px auto;
     width: 1370px;
-    height: 600px;    
+    height: 600px;
+    border-radius: 16px;
+      
 }
 .banner-title{
     color: #FFFFFF;  
     font-size: 32px;
     text-align: center;
-    padding-top: 130px; 
+  
 }
 .banner-description{
     text-align: center;
     font-size: 70px;
     font-weight: 900px;
     color:#FFFFFF;
-    margin-top: 30px;
+     margin-top: 30px; 
+}
+.banner-details{
+   padding: 160px 344px;  
+}
+/* OFF */
+.off-container{
+    text-align: center;
+    
+}
+.off-container h1,p{
+    color: #FF0000;
+    margin-bottom: 30px;
+}
+.off-title{
+    font-size: 88px;
+    font-weight: bold;
+   
+}
+.off-description{
+    font-size: 24px;
+    font-weight: 500px;
+}
+.off-categores{
+     font-size: 48px;
+    font-weight: bold;
+    margin: -10px;
+}
+.off-container img{
+    margin-top: 50px;
+    width:800px ;
+    height: 500px;
 }
