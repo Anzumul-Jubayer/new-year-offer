@@ -6,6 +6,7 @@
 }
 body{
     margin-bottom: 120px;
+    
 }
 
 /* Share Style */
@@ -68,7 +69,7 @@ body{
 .party{
     background-image: linear-gradient(#070211a8,#07021150),url(../images/Vectorrr.png);
     background-repeat: no-repeat;
-    margin: 50px auto;
+    margin: 80px auto;
     width: 1320px;
     height: 600px;
     border-radius: 16px;
@@ -108,4 +109,37 @@ body{
 .party-container button a{
       color: rgba(255, 255, 255, 1);
       text-decoration: none;
+}
+/* Place */
+.place{
+   
+    background-image: linear-gradient(#ff000025,#ff000000);
+    width:1320px;
+    height: 482px;
+    margin: 120px auto;
+    border-radius: 10px;
+}
+.place-description{
+    text-align: center;
+    padding: 110px 386px;
+}
+.place-description h3{
+    font-size: 32px;
+    font-weight: 600px;
+    color: #070211;
+}
+.pdt{
+    color: #FF0000;
+}
+.join{
+    background-color: #FF0000;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 8px;
+}
+.join a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
 }
