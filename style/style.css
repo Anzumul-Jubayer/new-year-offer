@@ -57,10 +57,55 @@ body{
 .off-categores{
      font-size: 48px;
     font-weight: bold;
-    margin: -10px;
+    margin: 10px;
 }
 .off-container img{
     margin-top: 50px;
     width:800px ;
     height: 500px;
+}
+/* Party */
+.party{
+    background-image: linear-gradient(#070211a8,#07021150),url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    margin: 50px auto;
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+}
+.party-container{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 80px;
+  
+   
+}
+.party-col{
+    width: 60%;
+    padding-bottom:  90px ;
+    
+}
+.party-title{
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 64px;
+}
+.party-description{
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.party-container button {
+   
+    background: none;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.party-container button a{
+      color: rgba(255, 255, 255, 1);
+      text-decoration: none;
 }
