@@ -110,6 +110,9 @@ body{
       color: rgba(255, 255, 255, 1);
       text-decoration: none;
 }
+.party-container button a:hover{
+      color: rgba(165, 42, 42, 0.682);   
+}
 /* Place */
 .place{
    
@@ -140,6 +143,9 @@ body{
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
+}
+.join:hover{
+    background-color: grey;
 }
 
 /* best-offer */
@@ -231,6 +237,54 @@ body{
 .holiday-sale img{
     width: 500px;
 }
+/* portfolio */
+.portfolio{
+ margin: 140px;
+}
+.portfolio-header{
+    padding-left: 10px;
+    padding-right:600px ;
+}
+.portfolio-title{
+    color: red;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.portfolio-subtitle{
+    margin-top: 20px;
+    color:black;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.portfolio-description{
+    margin-top: 20px;
+    color:gray;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.image-card{
+    display: flex;
+    justify-content:space-around;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+   
+    
+}
+.card{
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+.card img{
+    width: 380px;
+    height: 380px;
+    
+}
+
 
 
 
