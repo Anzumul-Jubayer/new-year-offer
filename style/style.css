@@ -284,6 +284,42 @@ body{
     height: 380px;
     
 }
+/* Newsletter */
+.newsletter{
+   text-align: center;
+   margin: 140px;
+   background-color: rgba(255, 0, 0, 0.05);
+   border-radius: 10px;
+   padding: 80px 212px 200px 212px;
+}
+.newsletter h2{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.newsletter p{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(128, 128, 128, 0.678);
+    margin-bottom: 10px;
+}
+.newsletter input{
+    background-color: white;
+    border: none;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+}
+.newsletter button{
+   width: 120px;
+   height: 50px;
+   border: none;
+   background-color: red; 
+   border-radius: 10px;
+   color: white;
+}
+
+
 
 
 
