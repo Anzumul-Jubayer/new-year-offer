@@ -4,9 +4,9 @@
   font-style: normal;
   font-variation-settings:"wdth" 100;
 }
-body{
-    margin-bottom: 120px;
-    
+
+*{
+    margin: 0px;
 }
 
 /* Share Style */
@@ -36,6 +36,12 @@ body{
 }
 .banner-details{
    padding: 160px 344px;  
+}
+.banner-description:hover{
+     color: rgba(218, 165, 32, 0.519);
+}
+.banner-title:hover{
+    color: rgba(218, 165, 32, 0.519);
 }
 /* OFF */
 .off-container{
@@ -125,11 +131,13 @@ body{
 .place-description{
     text-align: center;
     padding: 110px 386px;
+    
 }
 .place-description h3{
     font-size: 32px;
     font-weight: 600px;
     color: #070211;
+    margin-bottom: 20px;
 }
 .pdt{
     color: #FF0000;
@@ -143,6 +151,7 @@ body{
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
+    
 }
 .join:hover{
     background-color: grey;
@@ -159,7 +168,7 @@ body{
     align-items: center;
     gap: 50px;
     width: 100%;
-    /* padding: 100px; */
+    
     
 }
 
@@ -317,6 +326,47 @@ body{
    background-color: red; 
    border-radius: 10px;
    color: white;
+}
+/* Footer */
+footer{
+    background-color: black;
+    margin-bottom: 0px;
+    padding: 120px;
+}
+.address-contact{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.office-address{
+    width: 18%;
+   
+}
+.office-address p{
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
+.contact-details h5{
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 20px;
+}
+.icon-container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 80px;
+}
+.icon img{
+     width: 40px;
+     height: 40px;
+}
+.copy-right h5{
+    margin-top: 30px;
+    text-align: center;
+    color: white;
 }
 
 
