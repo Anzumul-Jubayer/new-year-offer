@@ -136,13 +136,12 @@ body{
     padding: 16px 32px;
     border: none;
     border-radius: 8px;
-}
-.join a{
     color: #FFFFFF;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
 }
+
 /* best-offer */
 .best-offer{
     width:1320px;
@@ -180,7 +179,7 @@ body{
         text-align: justify;
 }
 .best-offer-mid{
-    border: 20px solid red;
+    border: 15px solid red;
     border-radius: 50%;
 }
 .best-offer-mid img{
@@ -202,5 +201,36 @@ body{
     color: #07021161;
     margin-bottom: 50px;
 }
+/* Sales */
+.holiday-sale{
+    text-align: center;
+    margin: 120px 140px;
+}
+.sale-title{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.sale-sub-title{
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.sale-sub-title span{
+    color: red;
+}
+.sales-description{
+    font-size: 20px;
+    font-weight: 600;
+    color: grey;
+    margin-top: 10px;
+    padding: 28px 150px;
+  
+}
+.holiday-sale img{
+    width: 500px;
+}
+
 
 
